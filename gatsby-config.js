@@ -1,11 +1,21 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Marmoraria União Campinas`,
+    description: `Desde 1996, comercializando mármores e granitos, pedras decorativas nacionais e importadas. Medição, colocação e restauração de peças e pisos.`,
+    author: `Marcus Ungarette`,
+    copyright: `© Copyright - All Rights Reserved`,
+    siteUrl: `https://www.marmorariauniaocampinas.com.br`,
+    socialMedia: {
+      facebook: 'https://facebook.com/marmorariauniaocampinas/',
+      instagram: 'https://www.instagram.com/marmorariauniaocampinas/',
+      whatsapp: 'https://wa.me/5519998161843'
+    }
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -13,22 +23,43 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `empresarial`,
+        path: `${__dirname}/src/projetosImagens/empresarial`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `residencial`,
+        path: `${__dirname}/src/projetosImagens/residencial`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `institucional`,
+        path: `${__dirname}/src/projetosImagens/institucional`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Marmoraria União Campinas`,
+        short_name: `MUC`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#706c61`,
+        theme_color: `#706c61`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }

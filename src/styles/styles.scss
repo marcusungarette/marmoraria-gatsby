@@ -1,0 +1,13 @@
+$theme-colors: ();
+$theme-colors: map-merge(
+  (
+    "color-1": #706c61,
+    "color-2": #5c574f,
+    "color-light": #b0b4a4,
+    "color-dark": #48483a,
+    "colorbtn": #706c61
+  ),
+  $theme-colors
+);
+
+@import "bootstrap/scss/bootstrap.scss";
