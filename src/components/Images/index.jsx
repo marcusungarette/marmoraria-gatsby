@@ -6,7 +6,8 @@ const Image = (props) => {
   const { 
     image1,
     image2,
-    image3 
+    image3
+   
   } = useStaticQuery(graphql`
     query {
       image1: file(relativePath: { eq: "image1.jpg" }) {

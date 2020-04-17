@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Marmoraria União Campinas`,
-    description: `Desde 1996, comercializando mármores e granitos, pedras decorativas nacionais e importadas. Medição, colocação e restauração de peças e pisos.`,
+    description: `Localizada na região de Campinas - SP a Marmoraria União vem desde 1996, comercializando mármores, granitos, quartzo, pedras decorativas nacionais e importadas.`,
     author: `Marcus Ungarette`,
-    copyright: `© Copyright - All Rights Reserved`,
+    copyright: `© Copyright - Todos os direitos reservados - Desenvolvido por Marcus Ungarette`,
     siteUrl: `https://www.marmorariauniaocampinas.com.br`,
     socialMedia: {
       facebook: 'https://facebook.com/marmorariauniaocampinas/',
@@ -44,6 +44,27 @@ module.exports = {
         path: `${__dirname}/src/projetosImagens/institucional`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `marmores`,
+        path: `${__dirname}/src/projetosImagens/marmores`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `granitos`,
+        path: `${__dirname}/src/projetosImagens/granitos`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `sinteticos`,
+        path: `${__dirname}/src/projetosImagens/sinteticos`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -63,3 +84,6 @@ module.exports = {
     `gatsby-plugin-offline`,
   ],
 }
+
+
+

@@ -4,7 +4,6 @@ import Menu from "../Menu"
 import Footer from '../Footer'
 import GlobalStyles from '../../styles/globalStyled'
 
-import "./layout.scss"
 
 const Layout = ({ children }) => {
   return (

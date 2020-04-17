@@ -25,7 +25,8 @@ const GalleryTwo = () => {
       <div className="container py-4">
         <div className="row">
           <div className="col-12">
-            <h1 className="mb-4">Empresarial</h1>
+            <h2 className="mb-4">Empresarial</h2>
+            <hr className="featurette-divider"></hr>
           </div>
         </div>
         <div className="row">

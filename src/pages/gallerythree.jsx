@@ -30,7 +30,8 @@ const GalleryThree = () => {
       <div className="container py-4">
         <div className="row">
           <div className="col-12">
-            <h1 className="mb-4">Institucional</h1>
+            <h2 className="mb-4">Institucional</h2>
+            <hr className="featurette-divider"></hr>
           </div>
         </div>
         <div className="row">
