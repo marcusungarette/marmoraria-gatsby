@@ -10,7 +10,7 @@ Deploy with Netlify
 ## Built With
 
 * GatsbyJS - The web framework used
-* Bootstrap - Setup the grid with
+* Bootstrap - Responsive website :)
 * SASS - Used to manage the Bootstrap customization
 * Styled Components - Get the Icons and deal with then
 * GraphQL - Used to manage the images
