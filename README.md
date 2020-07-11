@@ -1,6 +1,8 @@
 # Gatsby-Marble-Website
 
-A static website, fully responsive made with GatsbyJS using ImagePlugins and GraphQL the result is a fast website with more than 100 images.
+A static website made for a friend and first client. Fully responsive with GatsbyJS framework using ImagePlugins and GraphQL the result is a fast website with more than 100 images.
+
+[Check here](https://marmorariauniao.netlify.app)
 
 
 ## Deployment
