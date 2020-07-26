@@ -40,10 +40,8 @@ In this project we have about 100 images inside the products tab and they render
   <a href="#memo-license">License</a>
 </p>
 
-<p align="center">
-	<a href="https://movegreen.netlify.app/">
-	  <img alt="Scene" 			src="https://ik.imagekit.io/jksiw5jtd5/marmoriauniao_OXflU5VSQ.gif">
-</p>
+![marmorariauniaoprodutos](https://user-images.githubusercontent.com/32929725/88491062-5e18de00-cf76-11ea-8d97-4bd8ff152d34.gif)
+
 
 ## :rocket: Technologies
 
